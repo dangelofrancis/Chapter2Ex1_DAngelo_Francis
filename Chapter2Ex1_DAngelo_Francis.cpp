@@ -15,12 +15,17 @@ int main()
 	char firstInitial;
 	char middleInitial;
 	char lastInitial;
+	string firstName;
 
-	cout << "Please enter the initial of your first name: " << endl;
+	cout << "Please enter the initial of your first name: ";
 	cin >> firstInitial;
-	cout << "Please enter the initial of your middle name: " << endl;
+	cout << "Please enter the initial of your middle name: ";
 	cin >> middleInitial;
-	cout << "Please enter the initial of your last name: " << endl;
+	cout << "Please enter the initial of your last name: ";
 	cin >> lastInitial;
-	cout << "Your initials are: " << firstInitial << middleInitial << lastInitial;
+	cout << "Your initials are: " << firstInitial << middleInitial << lastInitial << endl;
+	cout << "Please enter your first name: ";
+	cin >> firstName;
+	cout << "Your first name is: " << firstName;
+
 }
